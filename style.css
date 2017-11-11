@@ -1,0 +1,87 @@
+/*
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Spectral SC', serif;
+*/
+
+body{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logoDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainlogo{
+  height: 200px;
+}
+
+.secondarylogo{
+  width: 50px;
+}
+
+.fonts{
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black
+}
+
+h1{
+  font-family: 'Spectral SC', serif;
+  text-transform: capitalize;
+}
+
+h2{
+  font-family: 'Spectral SC', serif;
+}
+
+h3{
+  font-family: 'Dosis', sans-serif;
+}
+
+
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.colorswabs{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px black solid;
+  margin-top: 100px;
+  padding: 30px;
+}
+
+.seafoam{
+  background-color: #A0D6B4;
+  width: 200px;
+  height: 30px;
+  margin-top: 20px
+}
+
+.blue{
+  background-color: #5F9EA0;
+  width: 200px;
+  height: 30px;
+  margin-top: 20px
+}
+
+.tan{
+  background: #E8D9C5;
+  width: 200px;
+  height: 30px;
+  margin-top: 20px
+}
